@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ProjectLayout</string>
+    <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
+    <string name="copyright">Copyright, 2026</string>
 </resources>
