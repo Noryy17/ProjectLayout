@@ -2,4 +2,19 @@
     <string name="app_name">ProjectLayout</string>
     <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
     <string name="copyright">Copyright, 2026</string>
+
+    <string name="nama_1">Alex Pradana</string>
+    <string name="alamat_1">Godean, Sleman</string>
+
+    <string name="nama_2">Bagas Pratama</string>
+    <string name="telp_2">081234567890</string>
+    <string name="alamat_2">Jl. Malioboro No. 45, Gedongtengen, Yogyakarta</string>
+
+    <string name="nama_3">Nadya Maharani</string>
+    <string name="telp_3">085798765432</string>
+    <string name="alamat_3">Bungo, Jambi</string>
+
+    <string name="nama_4">Dimas Anggara</string>
+    <string name="telp_4">081322334455</string>
+    <string name="alamat_4">Jl. Tamantirto No. 12, Kasihan, Bantul</string>
 </resources>
