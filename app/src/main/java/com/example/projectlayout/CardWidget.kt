@@ -63,6 +63,16 @@ fun CardWidget(
                     fontFamily = FontFamily.Cursive
                 )
             }
+            if (telepon != null && teleponColor != null) {
+                Text(
+                    text = telepon,
+                    fontSize = 12.sp,
+                    color = teleponColor
+                )
+            }
+
+
+
         }
     }
 }
