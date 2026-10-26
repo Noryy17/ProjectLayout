@@ -69,6 +69,12 @@ fun CardWidget(
                     fontSize = 12.sp,
                     color = teleponColor
                 )
+                Text(
+                    text = alamat,
+                    fontSize = 12.sp,
+                    color = alamatColor,
+                    fontWeight = FontWeight.SemiBold
+                )
             }
 
 
