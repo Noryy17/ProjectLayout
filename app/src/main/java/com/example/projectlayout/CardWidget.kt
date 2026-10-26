@@ -14,6 +14,11 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.size
 import androidx.compose.ui.res.painterResource
+import androidx.compose.foundation.layout.Column
+import androidx.compose.material3.Text
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.sp
 
 @Composable
 fun CardWidget(
@@ -44,6 +49,20 @@ fun CardWidget(
                 contentDescription = null,
                 modifier = Modifier.size(45.dp)
             )
+
+
+            Column(
+                horizontalAlignment = Alignment.CenterHorizontally,
+                modifier = Modifier.weight(1f)
+            ) {
+                Text(
+                    text = nama,
+                    fontSize = 18.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = namaColor,
+                    fontFamily = FontFamily.Cursive
+                )
+            }
         }
     }
 }
