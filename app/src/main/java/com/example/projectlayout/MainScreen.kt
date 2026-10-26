@@ -11,6 +11,9 @@ import androidx.compose.material3.Text
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.height
+import androidx.compose.ui.res.colorResource
 
 @Composable
 fun MainScreen(modifier: Modifier = Modifier) {
@@ -31,5 +34,18 @@ fun MainScreen(modifier: Modifier = Modifier) {
             fontSize = 14.sp,
             fontWeight = FontWeight.SemiBold
         )
+
+        Spacer(modifier = Modifier.height(20.dp))
+
+        // Card 1
+        CardWidget(
+            bgColor = colorResource(id = R.color.card_1_bg),
+            nama = stringResource(id = R.string.nama_1),
+            alamat = stringResource(id = R.string.alamat_1),
+            namaColor = colorResource(id = R.color.text_yellow),
+            alamatColor = colorResource(id = R.color.text_white)
+        )
+
     }
+
 }
